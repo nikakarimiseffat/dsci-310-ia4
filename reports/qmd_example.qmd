@@ -64,8 +64,10 @@ Table 1. Standard deviation of historical (1906-1972) horse populations for each
 
 ```{r}
 #| label: tbl-std-dev-horses
-#| tbl-cap: Standard deviation of historical horse populations for each Canadian province between 1906 - 1972.
+#| tbl-cap: "Standard deviation of historical horse populations for each Canadian province between 1906 - 1972."
 #| echo: false
+#| message: false
+#| warning: false
 horses_sd_table <- read_csv("../results/horses_sd.csv")
 largest_sd <- horses_sd_table$Province[1]
 knitr::kable(horses_sd_table)
