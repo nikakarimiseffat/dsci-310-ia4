@@ -18,6 +18,8 @@ editor: source
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 library(tidyverse)
 ```
 
