@@ -11,7 +11,7 @@ format:
   pdf:
     toc: true
     number-sections: true
-bibliography: reference.bib
+bibliography: references.bib
 editor: source
 ---
 
